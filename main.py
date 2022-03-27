@@ -23,7 +23,7 @@ NOTE: This tool's only work for Indonesia number phone.
 """)
 		pilih=int(input('noobie/> '))
 		if pilih == 1:
-			import src.payu
+			import payu.py
 		elif pilih == 2:
 			import src.matahari
 		elif pilih == 3:
